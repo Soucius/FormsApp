@@ -28,3 +28,4 @@ C:\Users\Soucius\Desktop\aspnetcore-dersleri\FormsApp\obj\Debug\net8.0\refint\Fo
 C:\Users\Soucius\Desktop\aspnetcore-dersleri\FormsApp\obj\Debug\net8.0\FormsApp.pdb
 C:\Users\Soucius\Desktop\aspnetcore-dersleri\FormsApp\obj\Debug\net8.0\FormsApp.genruntimeconfig.cache
 C:\Users\Soucius\Desktop\aspnetcore-dersleri\FormsApp\obj\Debug\net8.0\ref\FormsApp.dll
+C:\Users\Soucius\Desktop\aspnetcore-dersleri\FormsApp\obj\Debug\net8.0\FormsApp.sourcelink.json
