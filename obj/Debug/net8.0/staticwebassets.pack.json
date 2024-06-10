@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Soucius\\Desktop\\aspnetcore-dersleri\\FormsApp\\wwwroot\\img\\07c99ff7-88c0-4154-bc4f-ed86bf4fcb81 .jpg",
+      "PackagePath": "staticwebassets\\img\\07c99ff7-88c0-4154-bc4f-ed86bf4fcb81 .jpg"
+    },
+    {
       "Id": "C:\\Users\\Soucius\\Desktop\\aspnetcore-dersleri\\FormsApp\\wwwroot\\img\\1.jpg",
       "PackagePath": "staticwebassets\\img\\1.jpg"
     },
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\Users\\Soucius\\Desktop\\aspnetcore-dersleri\\FormsApp\\wwwroot\\img\\ba9f7c7e-06bf-4294-ac78-6a94944e6459.jpg",
       "PackagePath": "staticwebassets\\img\\ba9f7c7e-06bf-4294-ac78-6a94944e6459.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Soucius\\Desktop\\aspnetcore-dersleri\\FormsApp\\wwwroot\\img\\ed4fd7ce-ea9c-4e43-a08b-11aa927d33e7 .jpg",
+      "PackagePath": "staticwebassets\\img\\ed4fd7ce-ea9c-4e43-a08b-11aa927d33e7 .jpg"
     },
     {
       "Id": "C:\\Users\\Soucius\\Desktop\\aspnetcore-dersleri\\FormsApp\\wwwroot\\js\\site.js",
