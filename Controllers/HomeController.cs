@@ -61,8 +61,10 @@ public class HomeController : Controller
         }
 
         if (ModelState.IsValid) {
-            using (var stream = new FileStream(path, FileMode.Create)) {
-                await imageFile!.CopyToAsync(stream);
+            if (imageFile != null) {
+                using (var stream = new FileStream(path, FileMode.Create)) {
+                    await imageFile!.CopyToAsync(stream);
+                }   
             }
 
             model.Image = randomFileName;
@@ -75,5 +77,21 @@ public class HomeController : Controller
         ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name");
 
         return View(model);
+    }
+
+    public IActionResult Edit(int? id) {
+        if (id == null) {
+            return NotFound();
+        }
+
+        var entity = Repository.Products.FirstOrDefault(product => product.ProductId == id);
+
+        if (entity == null) {
+            return NotFound();
+        }
+
+        ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name");
+
+        return View(entity);
     }
 }
