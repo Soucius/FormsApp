@@ -21,7 +21,7 @@ namespace FormsApp.Models
                 ProductId = 2,
                 Name = "iPhone 15",
                 Price = 50000,
-                IsActive = true,
+                IsActive = false,
                 Image = "2.jpg",
                 CategoryId = 1
             });
@@ -39,7 +39,7 @@ namespace FormsApp.Models
                 ProductId = 4,
                 Name = "iPhone 17",
                 Price = 70000,
-                IsActive = true,
+                IsActive = false,
                 Image = "4.jpg",
                 CategoryId = 1
             });
@@ -48,7 +48,7 @@ namespace FormsApp.Models
                 ProductId = 5,
                 Name = "Macbook Air",
                 Price = 80000,
-                IsActive = true,
+                IsActive = false,
                 Image = "5.jpg",
                 CategoryId = 2
             });
@@ -71,6 +71,38 @@ namespace FormsApp.Models
 
         public static void CreateProduct(Product product) {
             _products.Add(product);
+        }
+
+        public static void EditProduct(Product updatedProduct) {
+            var entity = _products.FirstOrDefault(product => product.ProductId == updatedProduct.ProductId);
+
+            if (entity != null) {
+                if (!string.IsNullOrEmpty(updatedProduct.Name)) {
+                    entity.Name = updatedProduct.Name;
+                }
+
+                entity.Name = updatedProduct.Name;
+                entity.Price = updatedProduct.Price;
+                entity.Image = updatedProduct.Image;
+                entity.CategoryId = updatedProduct.CategoryId;
+                entity.IsActive = updatedProduct.IsActive;
+            }
+        }
+
+        public static void EditIsActive(Product updatedProduct) {
+            var entity = _products.FirstOrDefault(product => product.ProductId == updatedProduct.ProductId);
+
+            if (entity != null) {
+                entity.IsActive = updatedProduct.IsActive;
+            }
+        }
+
+        public static void DeleteProduct(Product deletedProduct) {
+            var entity = _products.FirstOrDefault(product => product.ProductId == deletedProduct.ProductId);
+
+            if (entity != null) {
+                _products.Remove(entity);
+            }
         }
 
         public static List<Category> Categories {

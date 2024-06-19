@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7a0w0vTU7eFWYHZrha+5naH0WbmIR/QWu9xDzXvsoOw=",
+  "Hash": "20ZFX5FV1oIMUxDqLJcftBNUpM8dtiOOwauZNDRo8qc=",
   "Source": "FormsApp",
   "BasePath": "_content/FormsApp",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Soucius\\Desktop\\aspnetcore-dersleri\\FormsApp\\wwwroot\\img\\2005dcba-24ac-4763-9420-a48d21b0f7af .jpg",
+      "SourceId": "FormsApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Soucius\\Desktop\\aspnetcore-dersleri\\FormsApp\\wwwroot\\",
+      "BasePath": "_content/FormsApp",
+      "RelativePath": "img/2005dcba-24ac-4763-9420-a48d21b0f7af .jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\2005dcba-24ac-4763-9420-a48d21b0f7af .jpg"
     },
     {
       "Identity": "C:\\Users\\Soucius\\Desktop\\aspnetcore-dersleri\\FormsApp\\wwwroot\\img\\3.jpg",
